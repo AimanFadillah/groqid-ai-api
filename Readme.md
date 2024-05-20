@@ -9,10 +9,10 @@ API ini menyediakan layanan untuk menjawab berbagai macam pertanyaan menggunakan
 
 ## Kirim pertanyaan
 
-Endpoint: GET | 'groqapi-man.vercel.app?q=hai' 
+Endpoint: GET | `groqapi-man.vercel.app?q=hai`
 #### Response JSON
-'''
+```
 {
   "answer": "Hai! Bagaimana kabar?"
 }
-'''
+```
