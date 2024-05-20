@@ -11,8 +11,12 @@ async function getGroqChatCompletion(text) {
     return groq.chat.completions.create({
         messages: [
             {
+                role: "system",
+                content: "kamu adalah orang yang dapat menggunakan bahasa indonesia"
+            },
+            {
                 role: "user",
-                content: text || "Hello selamat malam"
+                content: text || "hai"
             }
         ],
         model: "llama3-8b-8192"
